@@ -1,0 +1,60 @@
+/* Resets */
+* {padding: 0; margin: 0; box-sizing: border-box;}
+li, a {color: black; list-style-type: none; text-decoration: none;}
+html, body {position: relative; width: 100%; font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+
+/* Given Classes */
+/* BG Color */
+.bg-dark-blue {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+.bg-blue {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+.bg-gray {
+    background-color: #E5E7EB;
+    color: #1F2937; 
+}
+
+/* Text Color */
+.txt-white {
+    color: #F9FAF8;
+}
+.txt-secondary-white {
+    color: #E5E7EB;
+}
+.txt-blue {
+    color: #3882F6;
+}
+.txt-black {
+    color: #1F2937; 
+}
+
+/* Text Format */
+.txt-regular, .txt-bold {
+    font-size: 18px;
+}
+.txt-bold {
+    font-weight: bold;
+}
+.txt-header {
+    font-size: 26px;
+    font-weight: bold;
+}
+.txt-banner {
+    font-size: 48px;
+    font-weight: bolder
+}
+.txt-info {
+    font-size: 36px;
+    font-weight: bolder;
+}
+.txt-quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+/* Layout */
