@@ -111,6 +111,15 @@ html, body {position: relative; width: 100%; font-family: Roboto, Oxygen, Ubuntu
                 padding: 10px 32px;
             }
 
+        .content .banner .info {
+            position: relative;
+            width: 50%;
+        }
+            .content .banner .info > *:not(button) {
+                position: relative;
+                width: 100%;
+            }
+
         .content .banner img {
             position: relative;
             width: 50%;
