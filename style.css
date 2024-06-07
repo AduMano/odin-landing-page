@@ -189,10 +189,14 @@ html, body {position: relative; width: 100%; font-family: Roboto, Oxygen, Ubuntu
             .content .contact-section .card .info > * {
                 margin-bottom: 6px;
             }
-            .content .contact-section .card button{
+            .content .contact-section .card button {
                 padding: 10px 24px;
                 border: 1px solid white;
                 border-radius: 10px;
+            }
+            .content .contact-section .card button:hover {
+                cursor: pointer;
+                filter: brightness(1.2);
             }
 
 .footer {
